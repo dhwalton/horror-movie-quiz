@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Horror Movie Quiz!</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href='https://fonts.googleapis.com/css?family=Creepster' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header id="masthead">
+		<h1>Horror Movie Quiz</h1>
+	</header>
+	<section id="main">
+		<div id="container">
+			<div id="score">
+				<span id="score-title">Score:</span>
+				<span id="progress"></span>
+			</div>
+			&nbsp;
+			<div id="prompt">
+				<p>Horror movie questions go in this box</p>
+			</div>
+			<div id="new-game"><button>Start New Game</button></div>
+			<div id="answers">
+				<button>Answer 1</button>
+				<button>Answer 2</button>
+				<button>Answer 3</button>
+				<button>Answer 4</button>
+			</div>
+			<div id="correct-answer"><h1>CORRECT!</h1></div>
+			<div id="incorrect-answer"><h1>WRONG!</h1></div>
+		</div>
+	</section>
+	<footer id="credits">
+		by Donny
+	</footer>
+	<audio id="correct-sound" src="sound/groovy.mp3" />
+	<audio id="incorrect-sound" src="sound/scream.mp3" />
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/quiz.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>

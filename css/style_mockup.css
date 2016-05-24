@@ -1,0 +1,125 @@
+/* ---------------------- Global ---------------------- */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Special Elite', cursive;
+}
+
+h1 {
+  font-family: 'Creepster', cursive;
+  color: #f00;
+  font-size: 6em;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ---------------------- Header ---------------------- */
+#masthead {
+  margin: 0;
+}
+
+
+/* ---------------------- Main Container ---------------------- */
+#container {
+  background-image:url(../images/shining.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 1280px;
+  height: 40em;
+  box-shadow: inset 0px 0px 8em #000;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+
+/* ---------------------- Score and Game Progress Indicators ----------------------*/
+#score {
+  height: 3em;
+  background-color: rgba(0,0,0,0.45);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  padding: 0.85em;
+  
+}
+
+#score img {
+  height: 50px;
+  width: 75px;
+}
+
+#score-title {
+  float:left;
+  margin-left: 3em;
+  margin-top: 1em;
+}
+
+#progress {
+  float:right;
+  margin-top: 1em;
+  margin-right: 6em;
+}
+
+
+/* ---------------------- Question Prompt ---------------------- */
+#prompt {
+  background-color: rgba(255,255,255,0.85);
+  min-height: 4em;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 0.5em;
+  margin-top: 5em;
+  box-shadow: 0px 0px 3em #000;
+  text-align: center;
+
+}
+
+#prompt p {
+  color: #000;
+  font-size: 2em;
+  margin: 1.5em;
+  padding: 1.5em;
+}
+
+
+/* ---------------------- New Game/Answer Divs & Buttons ---------------------- */
+#new-game, #answers {
+  text-align: center;
+  background-color: rgba(0,0,0,0.45);
+  padding: 1.5em 0;
+  border: none;
+  height: 3em;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin: 0;
+}
+
+#new-game button, #answers button {
+  padding: 0.85em;
+  margin: 0.25em;
+  border-radius: 0.25em;
+  background-color: #f00;
+  border: none;
+}
+
+#new-game button:focus, #answers button:focus {
+  outline:none;
+}
+
+#new-game button:hover, #answers button:hover {
+  background-color: #900;
+}
+
+/* ---------------------- Footer ---------------------- */
+#credits {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5em;
+}
