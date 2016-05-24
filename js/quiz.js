@@ -109,7 +109,7 @@ function populateQuestions() {
 	quiz.addQuestion("Michael Meyers wears a mask bearing the likeness of what celebrity?",
 					["Elvis Presley","Leonard Nimoy","John Wayne","William Shatner"],3);
 
-	quiz.addQuestion("Hannibal Lecter was asked to help catch what serial killer?",
+	quiz.addQuestion("In 'Silence of the Lambs', Hannibal Lecter was asked to help catch what serial killer?",
 					["The Tooth Fairy","Buffalo Bill","The Dragon","Wild Bill"],1);
 
 	console.log(quiz.qA.length + " questions added")
